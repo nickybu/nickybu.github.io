@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automation | Nicky Buttigieg</title>
+    <link>/tag/automation/</link>
+      <atom:link href="/tag/automation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Automation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-uk</language><copyright>© Nicky Buttigieg 2020</copyright><lastBuildDate>Tue, 02 Oct 2018 21:18:34 +0200</lastBuildDate>
+    <image>
+      <url>/img/share.png</url>
+      <title>Automation</title>
+      <link>/tag/automation/</link>
+    </image>
+    
+    <item>
+      <title>Automate your Vocabulary List with Google Assistant</title>
+      <link>/blog/2018/10/automate-your-vocabulary-list-with-google-assistant/</link>
+      <pubDate>Tue, 02 Oct 2018 21:18:34 +0200</pubDate>
+      <guid>/blog/2018/10/automate-your-vocabulary-list-with-google-assistant/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

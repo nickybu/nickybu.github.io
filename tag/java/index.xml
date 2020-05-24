@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java | Nicky Buttigieg</title>
+    <link>/tag/java/</link>
+      <atom:link href="/tag/java/index.xml" rel="self" type="application/rss+xml" />
+    <description>Java</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-uk</language><copyright>© Nicky Buttigieg 2020</copyright><lastBuildDate>Mon, 11 May 2020 22:10:39 +0200</lastBuildDate>
+    <image>
+      <url>/img/share.png</url>
+      <title>Java</title>
+      <link>/tag/java/</link>
+    </image>
+    
+    <item>
+      <title>A Tool for Constructing and Visualising Bidirectional Scattering Distribution Functions</title>
+      <link>/projects/bsdf-tool/</link>
+      <pubDate>Mon, 11 May 2020 22:10:39 +0200</pubDate>
+      <guid>/projects/bsdf-tool/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Submitted in partial fulfillment of the requirements for the degree of B.Sc. Information Technology (Software Development) (Hons.) at The University of Malta (2018).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: Physically-based rendering, Bidirectional Reflectance
+Distribution Functions, Monte Carlo integration&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Languages/Frameworks/Tools&lt;/strong&gt;: Java, LWJGL, Sunflow renderer&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;The current state-of-the-art with regards to constructing and visualising Bidirectional Scattering Distribution Functions (BSDFs) for physically-based rendering (PBR) is rather constrained, especially when wishing to employ the arbitrary light scattering models in a particular renderer. In this project, a framework to construct arbitrary Bidirectional Reflectance Distribution Functions (BRDFs) is designed, complemented by a visualisation tool. A renderer’s functionality is extended to support the BRDF Framework, producing any renders required for the evaluation.&lt;/p&gt;
+&lt;p&gt;Image quality metrics and a verifier built into the framework are utilised to demonstrate sound physically-plausible implementations of the BRDFs, having no difference in image quality when compared to images produced using the renderer’s standard re!ectance models.&lt;/p&gt;
+&lt;!-- &lt;img src=&#34;res/this_is_a_call.jpg&#34; alt=&#34;This is a Call cover&#34; class=&#34;blog-off-the-bookshelf-cover&#34;/&gt; --&gt;
+&lt;p&gt;&lt;img src=&#34;images/poster.png&#34; alt=&#34;Poster&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

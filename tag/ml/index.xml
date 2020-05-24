@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ML | Nicky Buttigieg</title>
+    <link>/tag/ml/</link>
+      <atom:link href="/tag/ml/index.xml" rel="self" type="application/rss+xml" />
+    <description>ML</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-uk</language><copyright>© Nicky Buttigieg 2020</copyright><lastBuildDate>Tue, 12 May 2020 17:43:37 +0200</lastBuildDate>
+    <image>
+      <url>/img/share.png</url>
+      <title>ML</title>
+      <link>/tag/ml/</link>
+    </image>
+    
+    <item>
+      <title>Comparison of Over-Sampling and Under-Sampling Techniques on Imbalanced Medical Datasets.</title>
+      <link>/projects/sampling-techniques-imbalanced-datasets/</link>
+      <pubDate>Tue, 12 May 2020 17:43:37 +0200</pubDate>
+      <guid>/projects/sampling-techniques-imbalanced-datasets/</guid>
+      <description>&lt;p&gt;&lt;em&gt;A pair assignment carried out with Kimberley Bird submitted to The University of Manchester for COMP 61011 Foundations of Machine Learning (2019).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: SVM, kNN, SMOTE, Tomek Links, imbalanced datasets&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Languages/Frameworks&lt;/strong&gt;: Python, scikit-learn&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This paper investigates three different sampling techniques for handling five imbalanced medical datasets. The datasets are balanced using SMOTE, Tomek Links and a combination of both SMOTE and Tomek Links. A sensitive (kNN) and a robust classifier (SVM) are used for the evaluation process. Our results suggest that a combination of SMOTE and Tomek Links produce the most accurate classifications of both classes for four out of five datasets, with precision and recall peaking at 99.4% and 99.4% for the kNN and 99.3% and 99.5% for the SVM respectively. These results show that the combination of SMOTE and Tomek Links could be an ideal technique to handle imbalanced datasets.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

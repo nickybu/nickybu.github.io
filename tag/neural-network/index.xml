@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neural network | Nicky Buttigieg</title>
+    <link>/tag/neural-network/</link>
+      <atom:link href="/tag/neural-network/index.xml" rel="self" type="application/rss+xml" />
+    <description>Neural network</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-uk</language><copyright>© Nicky Buttigieg 2020</copyright><lastBuildDate>Mon, 11 May 2020 22:10:37 +0200</lastBuildDate>
+    <image>
+      <url>/img/share.png</url>
+      <title>Neural network</title>
+      <link>/tag/neural-network/</link>
+    </image>
+    
+    <item>
+      <title>Spiking Grid Cell Model</title>
+      <link>/projects/spiking-grid-cell-model/</link>
+      <pubDate>Mon, 11 May 2020 22:10:37 +0200</pubDate>
+      <guid>/projects/spiking-grid-cell-model/</guid>
+      <description>&lt;p&gt;&lt;em&gt;A dissertation submitted to The University of Manchester for the degree of Master of Science in the Faculty of Science and Engineering (2019).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: SpiNNaker, spiking neural network, spatial navigation, grid cell, at-
+tractor network, recurrent neural network&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Languages/Frameworks&lt;/strong&gt;: Python, sPyNNaker&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Complex biological mechanisms working in unison provide mammals with the capabilities to self-localise and navigate within familiar and foreign environments. A literature review of the field of spatial representation, focusing on grid cells and existing computational grid cell models was carried out. The aim of this thesis is to investigate
+mechanisms capable of exhibiting spatially periodic firing patterns analogous to grid
+cell representations, designing and implementing an spiking neuron model to run on
+the SpiNNaker neuromorphic platform.&lt;/p&gt;
+&lt;p&gt;The grid cell model presented in this project is based on continuous attractor neural
+network (CANN) dynamics with recurrently inhibitory connections, evolving into a
+stable state generating triangular-shaped spatially periodic activity patterns over time. A network of 2500 spiking neurons with periodic boundary constraints was simulated
+on SpiNNaker. Uniform, distance-dependent and a simplified difference of Gaussians
+(DoG) connectivity patterns were evaluated. The results showed that while CANN grid
+cell models exhibit the characteristic features of grid cells, a spiking neuron model with biologically-plausible parameters requires further exploration and tuning.&lt;/p&gt;
+&lt;p&gt;This project discusses significant observations in the grid cell model’s activity, pro-
+viding a proof of concept for potential spatial navigation systems analogous to the brain using a spiking neural network (SNN). Further insight into the biological mecha-
+nisms supporting spatial navigation will result in significant advancements for adaptive robotic navigation, autonomous exploration and the efficient representations of space.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
