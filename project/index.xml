@@ -78,7 +78,7 @@ Distribution Functions, Monte Carlo integration&lt;/p&gt;
       <description>&lt;p&gt;&lt;em&gt;A dissertation submitted to The University of Manchester for the degree of Master of Science in the Faculty of Science and Engineering (2019).&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: SpiNNaker, spiking neural network, spatial navigation, grid cell, at-
 tractor network, recurrent neural network&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Languages/Frameworks&lt;/strong&gt;: Python, sPyNNaker&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Languages/Frameworks&lt;/strong&gt;: Python, sPyNNaker, PyNN&lt;/p&gt;
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;Complex biological mechanisms working in unison provide mammals with the capabilities to self-localise and navigate within familiar and foreign environments. A literature review of the field of spatial representation, focusing on grid cells and existing computational grid cell models was carried out. The aim of this thesis is to investigate
 mechanisms capable of exhibiting spatially periodic firing patterns analogous to grid

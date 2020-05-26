@@ -51,6 +51,8 @@
 &lt;img src=&#34;images/black_cloud.jpg&#34; alt=&#34;The Black Cloud cover&#34; class=&#34;blog-off-the-bookshelf-cover&#34;/&gt;
 &lt;p&gt;Sir Fred Hoyle was a British astronomer who worked at the Institute of Astronomy at Cambridge. The Black Cloud is a science fiction novel that details the observation of a huge gas cloud that may or may not block the Sun&amp;rsquo;s radiation from reaching Earth.&lt;/p&gt;
 &lt;p&gt;In the preface, Hoyle tells the reader, &amp;ldquo;I hope that my scientific colleagues will enjoy this frolic. After all, there is very little here that could not conceivably happen.&amp;rdquo; Hoyle makes the reader feel as if they are among the scientists and astronomers tackling the situation.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;currently-reading&#34;&gt;Currently reading&amp;hellip;&lt;/h2&gt;
 &lt;h3 id=&#34;contact&#34;&gt;Contact&lt;/h3&gt;
 &lt;h4 id=&#34;carl-sagan&#34;&gt;Carl Sagan&lt;/h4&gt;
 &lt;img src=&#34;images/contact.jpg&#34; alt=&#34;Contact cover&#34; class=&#34;blog-off-the-bookshelf-cover&#34;/&gt;
@@ -130,7 +132,7 @@ Distribution Functions, Monte Carlo integration&lt;/p&gt;
       <description>&lt;p&gt;&lt;em&gt;A dissertation submitted to The University of Manchester for the degree of Master of Science in the Faculty of Science and Engineering (2019).&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: SpiNNaker, spiking neural network, spatial navigation, grid cell, at-
 tractor network, recurrent neural network&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Languages/Frameworks&lt;/strong&gt;: Python, sPyNNaker&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Languages/Frameworks&lt;/strong&gt;: Python, sPyNNaker, PyNN&lt;/p&gt;
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;Complex biological mechanisms working in unison provide mammals with the capabilities to self-localise and navigate within familiar and foreign environments. A literature review of the field of spatial representation, focusing on grid cells and existing computational grid cell models was carried out. The aim of this thesis is to investigate
 mechanisms capable of exhibiting spatially periodic firing patterns analogous to grid
