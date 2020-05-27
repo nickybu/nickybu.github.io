@@ -1,1 +1,3 @@
 User-agent: *
+Dissallow:
+Sitemap: https://nickybu.github.io/sitemap.xml

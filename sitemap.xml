@@ -5,173 +5,243 @@
   <url>
     <loc>/authors/</loc>
     <lastmod>2020-05-24T16:59:53+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/blog/</loc>
     <lastmod>2020-05-24T16:59:53+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tag/books/</loc>
     <lastmod>2020-05-24T16:59:53+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/</loc>
     <lastmod>2020-05-24T16:59:53+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
     <lastmod>2020-05-24T16:59:53+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/authors/admin/</loc>
     <lastmod>2020-05-24T16:59:53+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/category/off-the-bookshelf/</loc>
     <lastmod>2020-05-24T16:59:53+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/blog/2020/05/off-the-bookshelf-1/</loc>
     <lastmod>2020-05-24T16:59:53+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
     <lastmod>2020-05-24T16:59:53+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/projects/sampling-techniques-imbalanced-datasets/</loc>
     <lastmod>2020-05-12T17:43:37+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tag/ml/</loc>
     <lastmod>2020-05-12T17:43:37+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/project/</loc>
     <lastmod>2020-05-12T17:43:37+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/category/university/</loc>
     <lastmod>2020-05-12T17:43:37+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/projects/anadrom/</loc>
     <lastmod>2020-05-11T22:10:41+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tag/esports/</loc>
     <lastmod>2020-05-11T22:10:41+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tag/laravel/</loc>
     <lastmod>2020-05-11T22:10:41+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tag/php/</loc>
     <lastmod>2020-05-11T22:10:41+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/projects/bsdf-tool/</loc>
     <lastmod>2020-05-11T22:10:39+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tag/dissertation/</loc>
     <lastmod>2020-05-11T22:10:39+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tag/java/</loc>
     <lastmod>2020-05-11T22:10:39+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tag/rendering/</loc>
     <lastmod>2020-05-11T22:10:39+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tag/neural-network/</loc>
     <lastmod>2020-05-11T22:10:37+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tag/python/</loc>
     <lastmod>2020-05-11T22:10:37+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/projects/spiking-grid-cell-model/</loc>
     <lastmod>2020-05-11T22:10:37+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tag/neuroscience/</loc>
     <lastmod>2019-02-15T17:54:21+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tag/text-mining/</loc>
     <lastmod>2019-02-15T17:54:21+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/blog/2019/02/text-mining-neuroscience-review/</loc>
     <lastmod>2019-02-15T17:54:21+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/blog/2018/10/automate-your-vocabulary-list-with-google-assistant/</loc>
     <lastmod>2020-02-05T21:18:42+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tag/automation/</loc>
     <lastmod>2020-02-05T21:18:42+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/category/how-to/</loc>
     <lastmod>2020-02-05T21:18:42+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tag/ifttt/</loc>
     <lastmod>2020-02-05T21:18:42+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tag/voice-assistant/</loc>
     <lastmod>2020-02-05T21:18:42+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/publication_types/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/true/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>
