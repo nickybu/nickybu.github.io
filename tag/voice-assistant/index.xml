@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Voice assistant | Nicky Buttigieg</title>
-    <link>/tag/voice-assistant/</link>
-      <atom:link href="/tag/voice-assistant/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nickybu.github.io/tag/voice-assistant/</link>
+      <atom:link href="https://nickybu.github.io/tag/voice-assistant/index.xml" rel="self" type="application/rss+xml" />
     <description>Voice assistant</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-uk</language><copyright>© Nicky Buttigieg 2020</copyright><lastBuildDate>Tue, 02 Oct 2018 21:18:34 +0200</lastBuildDate>
     <image>
-      <url>/img/share.png</url>
+      <url>https://nickybu.github.io/img/share.png</url>
       <title>Voice assistant</title>
-      <link>/tag/voice-assistant/</link>
+      <link>https://nickybu.github.io/tag/voice-assistant/</link>
     </image>
     
     <item>
       <title>Automate your Vocabulary List with Google Assistant</title>
-      <link>/blog/2018/10/automate-your-vocabulary-list-with-google-assistant/</link>
+      <link>https://nickybu.github.io/blog/2018/10/automate-your-vocabulary-list-with-google-assistant/</link>
       <pubDate>Tue, 02 Oct 2018 21:18:34 +0200</pubDate>
-      <guid>/blog/2018/10/automate-your-vocabulary-list-with-google-assistant/</guid>
+      <guid>https://nickybu.github.io/blog/2018/10/automate-your-vocabulary-list-with-google-assistant/</guid>
       <description></description>
     </item>
     

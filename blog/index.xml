@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog | Nicky Buttigieg</title>
-    <link>/blog/</link>
-      <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nickybu.github.io/blog/</link>
+      <atom:link href="https://nickybu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-uk</language><copyright>© Nicky Buttigieg 2020</copyright><lastBuildDate>Sun, 24 May 2020 16:59:53 +0200</lastBuildDate>
     <image>
-      <url>/img/share.png</url>
+      <url>https://nickybu.github.io/img/share.png</url>
       <title>Blog</title>
-      <link>/blog/</link>
+      <link>https://nickybu.github.io/blog/</link>
     </image>
     
     <item>
       <title>Off the Bookshelf #1</title>
-      <link>/blog/2020/05/off-the-bookshelf-1/</link>
+      <link>https://nickybu.github.io/blog/2020/05/off-the-bookshelf-1/</link>
       <pubDate>Sun, 24 May 2020 16:59:53 +0200</pubDate>
-      <guid>/blog/2020/05/off-the-bookshelf-1/</guid>
+      <guid>https://nickybu.github.io/blog/2020/05/off-the-bookshelf-1/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;re thinking about buying some books, try reaching out to your local independent bookstores before ordering from large retailers.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;this-is-a-call-the-life-and-times-of-dave-grohl&#34;&gt;This Is a Call: The Life and Times of Dave Grohl&lt;/h3&gt;
@@ -68,9 +68,9 @@
     
     <item>
       <title>Text Mining and Neuroscience</title>
-      <link>/blog/2019/02/text-mining-neuroscience-review/</link>
+      <link>https://nickybu.github.io/blog/2019/02/text-mining-neuroscience-review/</link>
       <pubDate>Fri, 15 Feb 2019 17:54:21 +0200</pubDate>
-      <guid>/blog/2019/02/text-mining-neuroscience-review/</guid>
+      <guid>https://nickybu.github.io/blog/2019/02/text-mining-neuroscience-review/</guid>
       <description>&lt;p&gt;&lt;em&gt;An assignment submitted to The University of Manchester for COMP 61332 Text Mining&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Text mining is an essential approach to uncovering neuroscience-related knowledge about the complex nature of the brain from large amounts of research data. Neuroscience encompasses the sciences that deal with the structure or function of the brain and nervous system. It incorporates fragments of a broad range of subdomains, including, but not limited to, molecular biology, anatomy, genetics and computer science. Retrieving, extracting and mining information from available research and literature data across the subdomains has proven to be a major challenge. Although text mining has been used considerably in bioinformatics, its adoption in the domain of neuroscience has been more recent. This paper examines the fundamental barriers and challenges in text mining for neuroscience and some current state-of-the-art resources.&lt;/p&gt;
@@ -107,9 +107,9 @@ Organisations and researchers alike have attempted to create standards for text 
     
     <item>
       <title>Automate your Vocabulary List with Google Assistant</title>
-      <link>/blog/2018/10/automate-your-vocabulary-list-with-google-assistant/</link>
+      <link>https://nickybu.github.io/blog/2018/10/automate-your-vocabulary-list-with-google-assistant/</link>
       <pubDate>Tue, 02 Oct 2018 21:18:34 +0200</pubDate>
-      <guid>/blog/2018/10/automate-your-vocabulary-list-with-google-assistant/</guid>
+      <guid>https://nickybu.github.io/blog/2018/10/automate-your-vocabulary-list-with-google-assistant/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dissertation | Nicky Buttigieg</title>
-    <link>/tag/dissertation/</link>
-      <atom:link href="/tag/dissertation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nickybu.github.io/tag/dissertation/</link>
+      <atom:link href="https://nickybu.github.io/tag/dissertation/index.xml" rel="self" type="application/rss+xml" />
     <description>Dissertation</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-uk</language><copyright>© Nicky Buttigieg 2020</copyright><lastBuildDate>Mon, 11 May 2020 22:10:39 +0200</lastBuildDate>
     <image>
-      <url>/img/share.png</url>
+      <url>https://nickybu.github.io/img/share.png</url>
       <title>Dissertation</title>
-      <link>/tag/dissertation/</link>
+      <link>https://nickybu.github.io/tag/dissertation/</link>
     </image>
     
     <item>
       <title>A Tool for Constructing and Visualising Bidirectional Scattering Distribution Functions</title>
-      <link>/projects/bsdf-tool/</link>
+      <link>https://nickybu.github.io/projects/bsdf-tool/</link>
       <pubDate>Mon, 11 May 2020 22:10:39 +0200</pubDate>
-      <guid>/projects/bsdf-tool/</guid>
+      <guid>https://nickybu.github.io/projects/bsdf-tool/</guid>
       <description>&lt;p&gt;&lt;em&gt;Submitted in partial fulfillment of the requirements for the degree of B.Sc. Information Technology (Software Development) (Hons.) at The University of Malta (2018).&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: Physically-based rendering, Bidirectional Reflectance
 Distribution Functions, Monte Carlo integration&lt;/p&gt;
@@ -31,9 +31,9 @@ Distribution Functions, Monte Carlo integration&lt;/p&gt;
     
     <item>
       <title>Spiking Grid Cell Model</title>
-      <link>/projects/spiking-grid-cell-model/</link>
+      <link>https://nickybu.github.io/projects/spiking-grid-cell-model/</link>
       <pubDate>Mon, 11 May 2020 22:10:37 +0200</pubDate>
-      <guid>/projects/spiking-grid-cell-model/</guid>
+      <guid>https://nickybu.github.io/projects/spiking-grid-cell-model/</guid>
       <description>&lt;p&gt;&lt;em&gt;A dissertation submitted to The University of Manchester for the degree of Master of Science in the Faculty of Science and Engineering (2019).&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: SpiNNaker, spiking neural network, spatial navigation, grid cell, at-
 tractor network, recurrent neural network&lt;/p&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nicky Buttigieg</title>
-    <link>/authors/admin/</link>
-      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nickybu.github.io/authors/admin/</link>
+      <atom:link href="https://nickybu.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Nicky Buttigieg</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-uk</language><copyright>© Nicky Buttigieg 2020</copyright><lastBuildDate>Sun, 24 May 2020 16:59:53 +0200</lastBuildDate>
     <image>
-      <url>/authors/admin/avatar_hu085520897cbc654d9f6734538d13d308_146396_270x270_fill_q90_lanczos_center.jpg</url>
+      <url>https://nickybu.github.io/authors/admin/avatar_hu085520897cbc654d9f6734538d13d308_146396_270x270_fill_q90_lanczos_center.jpg</url>
       <title>Nicky Buttigieg</title>
-      <link>/authors/admin/</link>
+      <link>https://nickybu.github.io/authors/admin/</link>
     </image>
     
     <item>
       <title>Off the Bookshelf #1</title>
-      <link>/blog/2020/05/off-the-bookshelf-1/</link>
+      <link>https://nickybu.github.io/blog/2020/05/off-the-bookshelf-1/</link>
       <pubDate>Sun, 24 May 2020 16:59:53 +0200</pubDate>
-      <guid>/blog/2020/05/off-the-bookshelf-1/</guid>
+      <guid>https://nickybu.github.io/blog/2020/05/off-the-bookshelf-1/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;re thinking about buying some books, try reaching out to your local independent bookstores before ordering from large retailers.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;this-is-a-call-the-life-and-times-of-dave-grohl&#34;&gt;This Is a Call: The Life and Times of Dave Grohl&lt;/h3&gt;
@@ -68,9 +68,9 @@
     
     <item>
       <title>Comparison of Over-Sampling and Under-Sampling Techniques on Imbalanced Medical Datasets.</title>
-      <link>/projects/sampling-techniques-imbalanced-datasets/</link>
+      <link>https://nickybu.github.io/projects/sampling-techniques-imbalanced-datasets/</link>
       <pubDate>Tue, 12 May 2020 17:43:37 +0200</pubDate>
-      <guid>/projects/sampling-techniques-imbalanced-datasets/</guid>
+      <guid>https://nickybu.github.io/projects/sampling-techniques-imbalanced-datasets/</guid>
       <description>&lt;p&gt;&lt;em&gt;A pair assignment carried out with Kimberley Bird submitted to The University of Manchester for COMP 61011 Foundations of Machine Learning (2019).&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: SVM, kNN, SMOTE, Tomek Links, imbalanced datasets&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Languages/Frameworks&lt;/strong&gt;: Python, scikit-learn&lt;/p&gt;
@@ -81,9 +81,9 @@
     
     <item>
       <title>Anadrom</title>
-      <link>/projects/anadrom/</link>
+      <link>https://nickybu.github.io/projects/anadrom/</link>
       <pubDate>Mon, 11 May 2020 22:10:41 +0200</pubDate>
-      <guid>/projects/anadrom/</guid>
+      <guid>https://nickybu.github.io/projects/anadrom/</guid>
       <description>&lt;p&gt;&lt;em&gt;Founded by my friend 
 &lt;a href=&#34;https://blog.lucaperic.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Luca Peric&lt;/a&gt;, we teamed up to work on Anadrom between September 2017 and December 2018.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Languages/Frameworks&lt;/strong&gt;: PHP, Laravel, MySQL, HTML, CSS, JS&lt;/p&gt;
@@ -109,9 +109,9 @@
     
     <item>
       <title>A Tool for Constructing and Visualising Bidirectional Scattering Distribution Functions</title>
-      <link>/projects/bsdf-tool/</link>
+      <link>https://nickybu.github.io/projects/bsdf-tool/</link>
       <pubDate>Mon, 11 May 2020 22:10:39 +0200</pubDate>
-      <guid>/projects/bsdf-tool/</guid>
+      <guid>https://nickybu.github.io/projects/bsdf-tool/</guid>
       <description>&lt;p&gt;&lt;em&gt;Submitted in partial fulfillment of the requirements for the degree of B.Sc. Information Technology (Software Development) (Hons.) at The University of Malta (2018).&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: Physically-based rendering, Bidirectional Reflectance
 Distribution Functions, Monte Carlo integration&lt;/p&gt;
@@ -126,9 +126,9 @@ Distribution Functions, Monte Carlo integration&lt;/p&gt;
     
     <item>
       <title>Spiking Grid Cell Model</title>
-      <link>/projects/spiking-grid-cell-model/</link>
+      <link>https://nickybu.github.io/projects/spiking-grid-cell-model/</link>
       <pubDate>Mon, 11 May 2020 22:10:37 +0200</pubDate>
-      <guid>/projects/spiking-grid-cell-model/</guid>
+      <guid>https://nickybu.github.io/projects/spiking-grid-cell-model/</guid>
       <description>&lt;p&gt;&lt;em&gt;A dissertation submitted to The University of Manchester for the degree of Master of Science in the Faculty of Science and Engineering (2019).&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: SpiNNaker, spiking neural network, spatial navigation, grid cell, at-
 tractor network, recurrent neural network&lt;/p&gt;
@@ -152,9 +152,9 @@ nisms supporting spatial navigation will result in significant advancements for 
     
     <item>
       <title>Text Mining and Neuroscience</title>
-      <link>/blog/2019/02/text-mining-neuroscience-review/</link>
+      <link>https://nickybu.github.io/blog/2019/02/text-mining-neuroscience-review/</link>
       <pubDate>Fri, 15 Feb 2019 17:54:21 +0200</pubDate>
-      <guid>/blog/2019/02/text-mining-neuroscience-review/</guid>
+      <guid>https://nickybu.github.io/blog/2019/02/text-mining-neuroscience-review/</guid>
       <description>&lt;p&gt;&lt;em&gt;An assignment submitted to The University of Manchester for COMP 61332 Text Mining&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Text mining is an essential approach to uncovering neuroscience-related knowledge about the complex nature of the brain from large amounts of research data. Neuroscience encompasses the sciences that deal with the structure or function of the brain and nervous system. It incorporates fragments of a broad range of subdomains, including, but not limited to, molecular biology, anatomy, genetics and computer science. Retrieving, extracting and mining information from available research and literature data across the subdomains has proven to be a major challenge. Although text mining has been used considerably in bioinformatics, its adoption in the domain of neuroscience has been more recent. This paper examines the fundamental barriers and challenges in text mining for neuroscience and some current state-of-the-art resources.&lt;/p&gt;
@@ -191,9 +191,9 @@ Organisations and researchers alike have attempted to create standards for text 
     
     <item>
       <title>Automate your Vocabulary List with Google Assistant</title>
-      <link>/blog/2018/10/automate-your-vocabulary-list-with-google-assistant/</link>
+      <link>https://nickybu.github.io/blog/2018/10/automate-your-vocabulary-list-with-google-assistant/</link>
       <pubDate>Tue, 02 Oct 2018 21:18:34 +0200</pubDate>
-      <guid>/blog/2018/10/automate-your-vocabulary-list-with-google-assistant/</guid>
+      <guid>https://nickybu.github.io/blog/2018/10/automate-your-vocabulary-list-with-google-assistant/</guid>
       <description></description>
     </item>
     

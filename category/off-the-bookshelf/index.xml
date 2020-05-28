@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Off the Bookshelf | Nicky Buttigieg</title>
-    <link>/category/off-the-bookshelf/</link>
-      <atom:link href="/category/off-the-bookshelf/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nickybu.github.io/category/off-the-bookshelf/</link>
+      <atom:link href="https://nickybu.github.io/category/off-the-bookshelf/index.xml" rel="self" type="application/rss+xml" />
     <description>Off the Bookshelf</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-uk</language><copyright>© Nicky Buttigieg 2020</copyright><lastBuildDate>Sun, 24 May 2020 16:59:53 +0200</lastBuildDate>
     <image>
-      <url>/img/share.png</url>
+      <url>https://nickybu.github.io/img/share.png</url>
       <title>Off the Bookshelf</title>
-      <link>/category/off-the-bookshelf/</link>
+      <link>https://nickybu.github.io/category/off-the-bookshelf/</link>
     </image>
     
     <item>
       <title>Off the Bookshelf #1</title>
-      <link>/blog/2020/05/off-the-bookshelf-1/</link>
+      <link>https://nickybu.github.io/blog/2020/05/off-the-bookshelf-1/</link>
       <pubDate>Sun, 24 May 2020 16:59:53 +0200</pubDate>
-      <guid>/blog/2020/05/off-the-bookshelf-1/</guid>
+      <guid>https://nickybu.github.io/blog/2020/05/off-the-bookshelf-1/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;re thinking about buying some books, try reaching out to your local independent bookstores before ordering from large retailers.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;this-is-a-call-the-life-and-times-of-dave-grohl&#34;&gt;This Is a Call: The Life and Times of Dave Grohl&lt;/h3&gt;

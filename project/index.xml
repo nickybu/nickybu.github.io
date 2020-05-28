@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Nicky Buttigieg</title>
-    <link>/project/</link>
-      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nickybu.github.io/project/</link>
+      <atom:link href="https://nickybu.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-uk</language><copyright>© Nicky Buttigieg 2020</copyright><lastBuildDate>Tue, 12 May 2020 17:43:37 +0200</lastBuildDate>
     <image>
-      <url>/img/share.png</url>
+      <url>https://nickybu.github.io/img/share.png</url>
       <title>Projects</title>
-      <link>/project/</link>
+      <link>https://nickybu.github.io/project/</link>
     </image>
     
     <item>
       <title>Comparison of Over-Sampling and Under-Sampling Techniques on Imbalanced Medical Datasets.</title>
-      <link>/projects/sampling-techniques-imbalanced-datasets/</link>
+      <link>https://nickybu.github.io/projects/sampling-techniques-imbalanced-datasets/</link>
       <pubDate>Tue, 12 May 2020 17:43:37 +0200</pubDate>
-      <guid>/projects/sampling-techniques-imbalanced-datasets/</guid>
+      <guid>https://nickybu.github.io/projects/sampling-techniques-imbalanced-datasets/</guid>
       <description>&lt;p&gt;&lt;em&gt;A pair assignment carried out with Kimberley Bird submitted to The University of Manchester for COMP 61011 Foundations of Machine Learning (2019).&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: SVM, kNN, SMOTE, Tomek Links, imbalanced datasets&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Languages/Frameworks&lt;/strong&gt;: Python, scikit-learn&lt;/p&gt;
@@ -27,9 +27,9 @@
     
     <item>
       <title>Anadrom</title>
-      <link>/projects/anadrom/</link>
+      <link>https://nickybu.github.io/projects/anadrom/</link>
       <pubDate>Mon, 11 May 2020 22:10:41 +0200</pubDate>
-      <guid>/projects/anadrom/</guid>
+      <guid>https://nickybu.github.io/projects/anadrom/</guid>
       <description>&lt;p&gt;&lt;em&gt;Founded by my friend 
 &lt;a href=&#34;https://blog.lucaperic.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Luca Peric&lt;/a&gt;, we teamed up to work on Anadrom between September 2017 and December 2018.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Languages/Frameworks&lt;/strong&gt;: PHP, Laravel, MySQL, HTML, CSS, JS&lt;/p&gt;
@@ -55,9 +55,9 @@
     
     <item>
       <title>A Tool for Constructing and Visualising Bidirectional Scattering Distribution Functions</title>
-      <link>/projects/bsdf-tool/</link>
+      <link>https://nickybu.github.io/projects/bsdf-tool/</link>
       <pubDate>Mon, 11 May 2020 22:10:39 +0200</pubDate>
-      <guid>/projects/bsdf-tool/</guid>
+      <guid>https://nickybu.github.io/projects/bsdf-tool/</guid>
       <description>&lt;p&gt;&lt;em&gt;Submitted in partial fulfillment of the requirements for the degree of B.Sc. Information Technology (Software Development) (Hons.) at The University of Malta (2018).&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: Physically-based rendering, Bidirectional Reflectance
 Distribution Functions, Monte Carlo integration&lt;/p&gt;
@@ -72,9 +72,9 @@ Distribution Functions, Monte Carlo integration&lt;/p&gt;
     
     <item>
       <title>Spiking Grid Cell Model</title>
-      <link>/projects/spiking-grid-cell-model/</link>
+      <link>https://nickybu.github.io/projects/spiking-grid-cell-model/</link>
       <pubDate>Mon, 11 May 2020 22:10:37 +0200</pubDate>
-      <guid>/projects/spiking-grid-cell-model/</guid>
+      <guid>https://nickybu.github.io/projects/spiking-grid-cell-model/</guid>
       <description>&lt;p&gt;&lt;em&gt;A dissertation submitted to The University of Manchester for the degree of Master of Science in the Faculty of Science and Engineering (2019).&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: SpiNNaker, spiking neural network, spatial navigation, grid cell, at-
 tractor network, recurrent neural network&lt;/p&gt;

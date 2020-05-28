@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>True | Nicky Buttigieg</title>
-    <link>/true/</link>
-      <atom:link href="/true/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nickybu.github.io/true/</link>
+      <atom:link href="https://nickybu.github.io/true/index.xml" rel="self" type="application/rss+xml" />
     <description>True</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-uk</language><copyright>© Nicky Buttigieg 2020</copyright>
     <image>
-      <url>/img/share.png</url>
+      <url>https://nickybu.github.io/img/share.png</url>
       <title>True</title>
-      <link>/true/</link>
+      <link>https://nickybu.github.io/true/</link>
     </image>
     
   </channel>

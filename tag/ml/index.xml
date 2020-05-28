@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ML | Nicky Buttigieg</title>
-    <link>/tag/ml/</link>
-      <atom:link href="/tag/ml/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nickybu.github.io/tag/ml/</link>
+      <atom:link href="https://nickybu.github.io/tag/ml/index.xml" rel="self" type="application/rss+xml" />
     <description>ML</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-uk</language><copyright>© Nicky Buttigieg 2020</copyright><lastBuildDate>Tue, 12 May 2020 17:43:37 +0200</lastBuildDate>
     <image>
-      <url>/img/share.png</url>
+      <url>https://nickybu.github.io/img/share.png</url>
       <title>ML</title>
-      <link>/tag/ml/</link>
+      <link>https://nickybu.github.io/tag/ml/</link>
     </image>
     
     <item>
       <title>Comparison of Over-Sampling and Under-Sampling Techniques on Imbalanced Medical Datasets.</title>
-      <link>/projects/sampling-techniques-imbalanced-datasets/</link>
+      <link>https://nickybu.github.io/projects/sampling-techniques-imbalanced-datasets/</link>
       <pubDate>Tue, 12 May 2020 17:43:37 +0200</pubDate>
-      <guid>/projects/sampling-techniques-imbalanced-datasets/</guid>
+      <guid>https://nickybu.github.io/projects/sampling-techniques-imbalanced-datasets/</guid>
       <description>&lt;p&gt;&lt;em&gt;A pair assignment carried out with Kimberley Bird submitted to The University of Manchester for COMP 61011 Foundations of Machine Learning (2019).&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: SVM, kNN, SMOTE, Tomek Links, imbalanced datasets&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Languages/Frameworks&lt;/strong&gt;: Python, scikit-learn&lt;/p&gt;

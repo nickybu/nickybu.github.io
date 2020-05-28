@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Laravel | Nicky Buttigieg</title>
-    <link>/tag/laravel/</link>
-      <atom:link href="/tag/laravel/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nickybu.github.io/tag/laravel/</link>
+      <atom:link href="https://nickybu.github.io/tag/laravel/index.xml" rel="self" type="application/rss+xml" />
     <description>Laravel</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-uk</language><copyright>© Nicky Buttigieg 2020</copyright><lastBuildDate>Mon, 11 May 2020 22:10:41 +0200</lastBuildDate>
     <image>
-      <url>/img/share.png</url>
+      <url>https://nickybu.github.io/img/share.png</url>
       <title>Laravel</title>
-      <link>/tag/laravel/</link>
+      <link>https://nickybu.github.io/tag/laravel/</link>
     </image>
     
     <item>
       <title>Anadrom</title>
-      <link>/projects/anadrom/</link>
+      <link>https://nickybu.github.io/projects/anadrom/</link>
       <pubDate>Mon, 11 May 2020 22:10:41 +0200</pubDate>
-      <guid>/projects/anadrom/</guid>
+      <guid>https://nickybu.github.io/projects/anadrom/</guid>
       <description>&lt;p&gt;&lt;em&gt;Founded by my friend 
 &lt;a href=&#34;https://blog.lucaperic.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Luca Peric&lt;/a&gt;, we teamed up to work on Anadrom between September 2017 and December 2018.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Languages/Frameworks&lt;/strong&gt;: PHP, Laravel, MySQL, HTML, CSS, JS&lt;/p&gt;

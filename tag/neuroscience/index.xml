@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Neuroscience | Nicky Buttigieg</title>
-    <link>/tag/neuroscience/</link>
-      <atom:link href="/tag/neuroscience/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nickybu.github.io/tag/neuroscience/</link>
+      <atom:link href="https://nickybu.github.io/tag/neuroscience/index.xml" rel="self" type="application/rss+xml" />
     <description>Neuroscience</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-uk</language><copyright>© Nicky Buttigieg 2020</copyright><lastBuildDate>Fri, 15 Feb 2019 17:54:21 +0200</lastBuildDate>
     <image>
-      <url>/img/share.png</url>
+      <url>https://nickybu.github.io/img/share.png</url>
       <title>Neuroscience</title>
-      <link>/tag/neuroscience/</link>
+      <link>https://nickybu.github.io/tag/neuroscience/</link>
     </image>
     
     <item>
       <title>Text Mining and Neuroscience</title>
-      <link>/blog/2019/02/text-mining-neuroscience-review/</link>
+      <link>https://nickybu.github.io/blog/2019/02/text-mining-neuroscience-review/</link>
       <pubDate>Fri, 15 Feb 2019 17:54:21 +0200</pubDate>
-      <guid>/blog/2019/02/text-mining-neuroscience-review/</guid>
+      <guid>https://nickybu.github.io/blog/2019/02/text-mining-neuroscience-review/</guid>
       <description>&lt;p&gt;&lt;em&gt;An assignment submitted to The University of Manchester for COMP 61332 Text Mining&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Text mining is an essential approach to uncovering neuroscience-related knowledge about the complex nature of the brain from large amounts of research data. Neuroscience encompasses the sciences that deal with the structure or function of the brain and nervous system. It incorporates fragments of a broad range of subdomains, including, but not limited to, molecular biology, anatomy, genetics and computer science. Retrieving, extracting and mining information from available research and literature data across the subdomains has proven to be a major challenge. Although text mining has been used considerably in bioinformatics, its adoption in the domain of neuroscience has been more recent. This paper examines the fundamental barriers and challenges in text mining for neuroscience and some current state-of-the-art resources.&lt;/p&gt;
