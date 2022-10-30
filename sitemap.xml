@@ -41,6 +41,8 @@
     <loc>https://nickybu.blog/bookshelf/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>https://nickybu.blog/archives/</loc>
+  </url><url>
     <loc>https://nickybu.blog/search/</loc>
   </url>
 </urlset>
