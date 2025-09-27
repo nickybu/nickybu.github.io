@@ -1,0 +1,19 @@
+.backlinks-container {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  /* On desktop, place under TOC sidebar */
+  .backlinks-container {
+    position: sticky;
+    top: 4rem; /* adjust according to your header height */
+  }
+}
+
+@media (max-width: 767px) {
+  /* On mobile, show below content */
+  .backlinks-container {
+    margin-top: 3rem;
+  }
+}

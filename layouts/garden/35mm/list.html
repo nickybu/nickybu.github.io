@@ -1,0 +1,33 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+
+  {{- if .Description }}
+    <div class="post-description">
+      {{- .Description -}}
+    </div>
+    {{- end }}
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
+  {{- end }}
+  
+  <div class="image-grid">
+    {{ range .Pages }}
+      {{ $img := .Resources.GetMatch "*image-*.*" }}
+      {{ if $img }}
+        <figure>
+          <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}" loading="lazy" />
+          <figcaption style="text-align:center;">{{ .Title }}</figcaption>
+        </figure>
+      {{ else }}
+        <p>No image found for {{ .Title }}</p>
+      {{ end }}
+    {{ else }}
+      <p>No images found in this gallery.</p>
+    {{ end }}
+  </div>
+{{ end }}

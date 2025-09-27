@@ -1,0 +1,10 @@
+{{ $books := site.Data.currently_reading.books }}
+{{ if $books }}
+  <ul class="currently-reading-list">
+    {{ range $books }}
+      <li>{{ .title }} by {{ .author }}</li>
+    {{ end }}
+  </ul>
+{{ else }}
+  <p>No books currently being read.</p>
+{{ end }}
