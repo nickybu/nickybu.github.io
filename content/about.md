@@ -4,7 +4,7 @@ ShowBreadCrumbs: false
 ShowWordCount: false
 ---
 
-I'm starting my PhD with [Sadra Sadeh's Lab](https://sadehlab.com/) at The Francis Crick Institute, and [Oscar Marin's Lab](devneuro.org.uk/marinlab/) at The Centre for Developmental Neurobiology at King's College London. Exploring cortical interneurons as a mechanism for regulating excitation/inhibition in cortical circuits.
+I'm in the first year of my PhD with [Sadra Sadeh's Lab](https://sadehlab.com/) at The Francis Crick Institute, and [Oscar Marin's Lab](devneuro.org.uk/marinlab/) at The Centre for Developmental Neurobiology at King's College London. Exploring cortical interneurons as a mechanism for regulating excitation/inhibition in cortical circuits.
 
 find me on twitter/𝕏 [@nickybuttigieg](https://x.com/nickybuttigieg) or bluesky [@nickybu.bsky.social](https://bsky.app/profile/nickybu.bsky.social)
 
