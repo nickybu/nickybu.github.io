@@ -7,5 +7,5 @@ ShowWordCount: false
 showBacklinks: true
 ---
 
-a collection of my favourite shots I've taken on 35mm film, typically Kodak Ultramax 400 and Gold 200
+a collection of my favourite shots I've taken on 35mm film, typically on Kodak Ultramax 400 and Gold 200
 
