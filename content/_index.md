@@ -3,7 +3,7 @@
 
 find out what I'm doing with my life right [now](/garden/now) or learn more [about](/about) my academic and professional background
 
-check out my [bookshelf](/docs/bookshelf) to see what I'm currently reading, and for some of my all-time favourite book
+check out my [bookshelf](/garden/bookshelf) to see what I'm currently reading, and for some of my all-time favourite book
 
 wander around my digital [garden](/garden)
 
