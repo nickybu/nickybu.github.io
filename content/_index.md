@@ -7,4 +7,4 @@ check out my [bookshelf](/garden/bookshelf) to see what I'm currently reading, a
 
 wander around my digital [garden](/garden)
 
-keep an eye out for my upcoming weekly newsletter [kurżita](https://kurzita.substack.com/) for a round-up of interesting things I've been reading about, watching, listening to and experimenting with
+keep an eye out for my weekly newsletter [kurżita](https://kurzita.substack.com/) for a round-up of interesting things I've been reading about, watching, listening to or doing
