@@ -84,11 +84,11 @@
 
   <ul class="currently-reading-list">
     
-      <li>Art of Doing Science and Engineering: Learning to Learn by Richard Hamming</li>
+      <li>The Greatest Show on Earth: The Evidence for Evolution by Richard Dawkins</li>
     
-      <li>The Complex World: An Introduction to the Foundations of Complexity Science by David C. Krakauer</li>
+      <li>Planetes Omnibus, Volume 1 (Planetes, #1-2) by Makoto Yukimura</li>
     
-      <li>The Complete Robot (Robot, #0.3) by Isaac Asimov</li>
+      <li>Principles of Neural Science by Eric R. Kandel</li>
     
   </ul>
 
@@ -361,6 +361,16 @@
     </item>
     
     <item>
+      <title>movie watchlist</title>
+      <link>https://www.nickybu.blog/garden/movie-watchlist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nickybu.blog/garden/movie-watchlist/</guid>
+      <description>movies I&amp;#39;ve watched</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
       <title>Murriyang, CSIRO Parkes Radio Telescope, Australia (2024)</title>
       <link>https://www.nickybu.blog/garden/35mm/images/image024/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -435,6 +445,16 @@
       
       <guid>https://www.nickybu.blog/garden/35mm/images/image022/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>what movie to watch</title>
+      <link>https://www.nickybu.blog/garden/what-movie-to-watch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nickybu.blog/garden/what-movie-to-watch/</guid>
+      <description>A random movie pick from my watchlist</description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
