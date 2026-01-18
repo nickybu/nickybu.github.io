@@ -45,7 +45,10 @@ jobs:
           python-version: '3.10'
 
       - name: Install Python dependencies
-        run: pip install selenium
+        run: pip install selenium webdriver-manager
+
+      - name: Install Chrome
+        uses: browser-actions/setup-chrome@v1
 
       # Run your scraper.
       - name: Run scraper script
