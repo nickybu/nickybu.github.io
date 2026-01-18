@@ -38,20 +38,16 @@ jobs:
           curl -L -o /tmp/hugo.tar.gz 'https://github.com/gohugoio/hugo/releases/download/v0.148.2/hugo_extended_0.148.2_linux-amd64.tar.gz'
           tar -C ${RUNNER_TEMP} -zxvf /tmp/hugo.tar.gz hugo
 
-      # Set up Python 3.10 and install dependencies.
-      - name: Set up Python 3.10 environment
+      # Set up Python and fetch currently reading books from Goodreads RSS
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
       - name: Install Python dependencies
-        run: pip install selenium webdriver-manager
+        run: pip install requests
 
-      - name: Install Chrome
-        uses: browser-actions/setup-chrome@v1
-
-      # Run your scraper.
-      - name: Run scraper script
+      - name: Fetch currently reading books
         run: python scripts/scrape-goodreads-shelf.py
 
       - name: Build

@@ -1,71 +1,46 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
+import requests
+import xml.etree.ElementTree as ET
 import json
 import os
-import time
+import re
 
-def convert_author_name(name):
-    """Convert 'Surname, Firstname' format to 'Firstname Lastname'"""
-    if ',' in name:
-        parts = name.split(',', 1)  # Split into max 2 parts
-        return f"{parts[1].strip()} {parts[0].strip()}"
-    return name
+def clean_html(text):
+    """Remove HTML tags from text"""
+    return re.sub(r'<[^>]+>', '', text)
 
-def scrape_goodreads_shelf(shelf: str):
-    # Configure Chrome options for CI environment
-    options = webdriver.ChromeOptions()
-    options.add_argument('--headless=new')
-    options.add_argument('--disable-gpu')
-    options.add_argument('--no-sandbox')
-    options.add_argument('--disable-dev-shm-usage')
-    options.add_argument('--disable-extensions')
-    options.add_argument('--disable-software-rasterizer')
-    options.add_argument('--remote-debugging-port=9222')
-    options.add_argument('--window-size=1920,1080')
-    options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
+def scrape_goodreads_shelf(user_id: str, shelf: str):
+    """Fetch books from Goodreads RSS feed"""
+    url = f"https://www.goodreads.com/review/list_rss/{user_id}?shelf={shelf}"
+    print(f"Fetching RSS feed: {url}")
 
     try:
-        service = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service=service, options=options)
-        url = f"https://www.goodreads.com/review/list/75434680-nicky?shelf={shelf}"
-        driver.get(url)
-        
-        # Wait for the table to load
-        wait = WebDriverWait(driver, 10)
-        table = wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'bookalike')))
-        
-        # Let the JavaScript load completely
-        time.sleep(2)
-        
+        response = requests.get(url, timeout=30)
+        response.raise_for_status()
+
+        root = ET.fromstring(response.content)
         books = []
-        rows = driver.find_elements(By.CLASS_NAME, 'bookalike')
-        
-        for row in rows:
-            try:
-                title_element = row.find_element(By.CLASS_NAME, 'title')
-                title = title_element.find_element(By.TAG_NAME, 'a').text.strip()
-                author_element = row.find_element(By.CLASS_NAME, 'author')
-                author = author_element.find_element(By.TAG_NAME, 'a').text.strip()
-                author = convert_author_name(author)
-                books.append({
-                    'title': title,
-                    'author': author
-                })
-            except Exception as e:
-                print(f"Error processing row: {e}")
-                continue
+
+        for item in root.findall('.//item'):
+            title_elem = item.find('title')
+            author_elem = item.find('author_name')
+
+            if title_elem is not None:
+                title = clean_html(title_elem.text or '').strip()
+                author = clean_html(author_elem.text or '').strip() if author_elem is not None else ''
+
+                if title:
+                    books.append({
+                        'title': title,
+                        'author': author
+                    })
 
         # Create data directory if it doesn't exist
         os.makedirs('data', exist_ok=True)
-        
+
         # Save to JSON with pretty printing
         with open('data/currently_reading.json', 'w', encoding='utf-8') as f:
             json.dump({"books": books}, f, ensure_ascii=False, indent=2)
-            
+
         return books
 
     except Exception as e:
@@ -74,17 +49,11 @@ def scrape_goodreads_shelf(shelf: str):
         traceback.print_exc()
         return []
 
-    finally:
-        try:
-            driver.quit()
-        except:
-            pass
-
 if __name__ == "__main__":
-    books = scrape_goodreads_shelf('currently-reading')
+    books = scrape_goodreads_shelf('75434680', 'currently-reading')
     if books:
-        print("\nBooks found:")
+        print(f"\nFound {len(books)} books:")
         for book in books:
-            print(f"Title: {book['title']}, Author: {book['author']}")
+            print(f"  - {book['title']} by {book['author']}")
     else:
         print("No books found or an error occurred.")
