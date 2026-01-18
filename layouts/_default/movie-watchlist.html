@@ -1,0 +1,164 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">{{ .Description }}</div>
+    {{- end }}
+  </header>
+
+  <div class="post-content">
+    <p class="watchlist-summary">{{ len .Site.Data.movies_watched.movies }} movies watched</p>
+
+    <div class="watchlist">
+      {{- range .Site.Data.movies_watched.movies }}
+      <div class="watchlist-item">
+        <div class="watchlist-rating">
+          {{- if .myRating }}
+          <span class="my-rating">{{ .myRating }}</span>
+          {{- else }}
+          <span class="my-rating no-rating">—</span>
+          {{- end }}
+        </div>
+        <div class="watchlist-info">
+          <div class="watchlist-title">
+            <a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>
+            {{- if .originalTitle }}
+            <span class="watchlist-original-title">{{ .originalTitle }}</span>
+            {{- end }}
+          </div>
+          <div class="watchlist-meta">
+            <span>{{ .year }}</span>
+            {{- if .directors }}
+            <span>{{ .directors }}</span>
+            {{- end }}
+            {{- if .runtime }}
+            <span>{{ .runtime }} min</span>
+            {{- end }}
+          </div>
+          <div class="watchlist-genres">{{ .genres }}</div>
+        </div>
+        <div class="watchlist-watched">
+          {{- if .watched }}
+          {{ .watched }}
+          {{- end }}
+        </div>
+      </div>
+      {{- end }}
+    </div>
+  </div>
+</article>
+
+<style>
+.watchlist-summary {
+  color: var(--secondary);
+  margin-bottom: 2em;
+}
+
+.watchlist {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background: var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.watchlist-item {
+  display: flex;
+  gap: 1em;
+  padding: 1em;
+  background: var(--theme);
+  align-items: flex-start;
+}
+
+.watchlist-rating {
+  flex-shrink: 0;
+  width: 40px;
+  text-align: center;
+}
+
+.my-rating {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: var(--primary);
+  color: var(--theme);
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.95em;
+}
+
+.my-rating.no-rating {
+  background: var(--border);
+  color: var(--secondary);
+}
+
+.watchlist-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.watchlist-title a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.watchlist-title a:hover {
+  text-decoration: underline;
+}
+
+.watchlist-original-title {
+  color: var(--secondary);
+  font-style: italic;
+  font-size: 0.9em;
+  margin-left: 0.5em;
+}
+
+.watchlist-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25em 1em;
+  color: var(--secondary);
+  font-size: 0.9em;
+  margin-top: 0.25em;
+}
+
+.watchlist-genres {
+  font-size: 0.85em;
+  color: var(--secondary);
+  margin-top: 0.35em;
+}
+
+.watchlist-watched {
+  flex-shrink: 0;
+  color: var(--secondary);
+  font-size: 0.85em;
+  text-align: right;
+  min-width: 90px;
+}
+
+@media (max-width: 600px) {
+  .watchlist-item {
+    flex-wrap: wrap;
+  }
+
+  .watchlist-watched {
+    width: 100%;
+    text-align: left;
+    margin-top: 0.5em;
+    padding-left: 50px;
+  }
+
+  .watchlist-original-title {
+    display: block;
+    margin-left: 0;
+  }
+}
+</style>
+
+{{- end }}
