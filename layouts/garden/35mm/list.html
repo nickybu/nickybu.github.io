@@ -16,7 +16,7 @@
   {{- end }}
   
   <div class="image-grid">
-    {{ range .Pages }}
+    {{ range .RegularPagesRecursive }}
       {{ $img := .Resources.GetMatch "*image-*.*" }}
       {{ if $img }}
         <figure>
