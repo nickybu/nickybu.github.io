@@ -5,9 +5,11 @@ ShowReadingTime: false
 ShowBreadCrumbs: false
 ShowWordCount: false
 disableAnchoredHeadings: false
+date: 2026-01-19T00:00:00+00:00
 ---
 
-a collection of DJ mixes recorded at home and with friends.
+a collection of DJ mixes recorded while playing around for fun at home and with friends.
+
 ### 2026-01-18
 
 {{< audio src="https://drive.google.com/file/d/1YEBv2cQtCve60qb-kfrm5RAC0vJk5ql6/view" >}}
