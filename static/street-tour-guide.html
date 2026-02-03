@@ -6,20 +6,22 @@
   <meta name="description" content="A walking tour guide that tracks your location and narrates nearby points of interest">
   <title>Street Tour Guide</title>
 
-  <!-- Leaflet CSS (CDN) -->
+  <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
         crossorigin="">
 
-  <!-- All CSS inlined -->
-  <style>
-    /* Critical inline styles from index.html */
-    html, body { margin: 0; padding: 0; height: 100%; font-family: system-ui, -apple-system, sans-serif; }
-    #app { height: 100%; display: flex; flex-direction: column; }
-    #map { flex: 1; min-height: 0; }
-    .loading { display: flex; align-items: center; justify-content: center; height: 100%; }
+  <!-- Import map for ES modules (Kokoro TTS) -->
+  <script type="importmap">
+  {
+    "imports": {
+      "kokoro-js": "https://cdn.jsdelivr.net/npm/kokoro-js@1.2.0/dist/kokoro.web.js",
+      "@huggingface/transformers": "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3/dist/transformers.min.js"
+    }
+  }
+  </script>
 
-    /* Full styles.css content */
+  <style>
 /* ===== CSS Variables ===== */
 :root {
   --primary-color: #2563eb;
@@ -1266,19 +1268,10 @@ html, body {
 }
 
   </style>
-
-  <!-- Import map for ES modules (Kokoro TTS) -->
-  <script type="importmap">
-  {
-    "imports": {
-      "kokoro-js": "https://cdn.jsdelivr.net/npm/kokoro-js@1.2.0/dist/kokoro.web.js",
-      "@huggingface/transformers": "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3/dist/transformers.min.js"
-    }
-  }
-  </script>
 </head>
 <body>
-<div id="app">
+
+  <div id="app">
     <!-- Header -->
     <header id="header">
       <h1>Street Tour Guide</h1>
@@ -1559,130 +1552,16 @@ html, body {
       <button id="btn-dev" class="btn btn-small btn-dev">Dev</button>
     </div>
   </div>
-  <!-- CDN scripts -->
+
+  <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
           crossorigin=""></script>
+
+  <!-- idb for IndexedDB -->
   <script src="https://unpkg.com/idb@7/build/umd.js"></script>
 
-  <!-- Worker source (not executed, read as text by tts-kokoro) -->
-  <script id="kokoro-worker-src" type="text/js-worker">
-/**
- * Kokoro TTS Web Worker for Street Tour Guide
- * Runs ONNX WASM inference off the main thread to avoid UI freezes.
- *
- * Messages IN:
- *   { type: 'init', options: { onProgress: boolean } }
- *   { type: 'generate', id: number, text: string, voice: string, speed: number }
- *   { type: 'dispose' }
- *
- * Messages OUT:
- *   { type: 'init-progress', progress: object }
- *   { type: 'init-done' }
- *   { type: 'init-error', error: string }
- *   { type: 'generate-done', id: number, audio: Float32Array }
- *   { type: 'generate-error', id: number, error: string }
- *   { type: 'disposed' }
- */
-
-let tts = null;
-
-self.onmessage = async function (e) {
-  const msg = e.data;
-
-  switch (msg.type) {
-    case 'init':
-      try {
-        const { KokoroTTS } = await import('https://cdn.jsdelivr.net/npm/kokoro-js@1.2.0/dist/kokoro.web.js');
-
-        tts = await KokoroTTS.from_pretrained(
-          'onnx-community/Kokoro-82M-v1.0-ONNX',
-          {
-            dtype: 'q8',
-            device: 'wasm',
-            progress_callback: msg.options?.onProgress ? (progress) => {
-              if (progress.status === 'progress') {
-                self.postMessage({
-                  type: 'init-progress',
-                  progress: {
-                    status: 'downloading',
-                    file: progress.file,
-                    progress: progress.progress,
-                    loaded: progress.loaded,
-                    total: progress.total
-                  }
-                });
-              } else if (progress.status === 'done') {
-                self.postMessage({
-                  type: 'init-progress',
-                  progress: {
-                    status: 'done',
-                    file: progress.file,
-                    progress: 100
-                  }
-                });
-              } else if (progress.status === 'ready') {
-                self.postMessage({
-                  type: 'init-progress',
-                  progress: {
-                    status: 'ready',
-                    progress: 100
-                  }
-                });
-              }
-            } : undefined
-          }
-        );
-
-        self.postMessage({ type: 'init-done' });
-      } catch (error) {
-        self.postMessage({ type: 'init-error', error: error.message });
-      }
-      break;
-
-    case 'generate':
-      if (!tts) {
-        self.postMessage({
-          type: 'generate-error',
-          id: msg.id,
-          error: 'Kokoro TTS not initialized in worker'
-        });
-        return;
-      }
-
-      try {
-        const result = await tts.generate(msg.text, {
-          voice: msg.voice,
-          speed: msg.speed
-        });
-
-        // Transfer the Float32Array to avoid copying
-        const audioData = result.audio;
-        self.postMessage(
-          { type: 'generate-done', id: msg.id, audio: audioData },
-          [audioData.buffer]
-        );
-      } catch (error) {
-        self.postMessage({
-          type: 'generate-error',
-          id: msg.id,
-          error: error.message
-        });
-      }
-      break;
-
-    case 'dispose':
-      tts = null;
-      self.postMessage({ type: 'disposed' });
-      break;
-  }
-};
-
-  </script>
-
-  <!-- All app JS concatenated in dependency order, wrapped in a single <script> tag -->
   <script>
-    // js/utils.js
 /**
  * Utility functions for Street Tour Guide
  */
@@ -1935,8 +1814,9 @@ const Utils = {
 // Make available globally
 window.Utils = Utils;
 
+  </script>
 
-    // js/storage.js
+  <script>
 /**
  * Storage module for Street Tour Guide
  * Handles IndexedDB for POI history and localStorage for settings
@@ -2286,8 +2166,9 @@ const Storage = {
 // Make available globally
 window.Storage = Storage;
 
+  </script>
 
-    // js/geolocation.js
+  <script>
 /**
  * Geolocation tracking module for Street Tour Guide
  * Handles location tracking, history, and direction prediction
@@ -2662,8 +2543,9 @@ const Geolocation = {
 // Make available globally
 window.Geolocation = Geolocation;
 
+  </script>
 
-    // js/map.js
+  <script>
 /**
  * Map module for Street Tour Guide
  * Handles Leaflet map display, markers, and user position
@@ -2836,29 +2718,8 @@ const MapDisplay = {
    * @returns {L.Marker}
    */
   addPoiMarker(poi) {
-    if (this.poiMarkers.has(poi.id)) {
-      return this.poiMarkers.get(poi.id);
-    }
-
-    const icon = this.createPoiIcon(poi.category);
-    const marker = L.marker(poi.coordinates, {
-      icon,
-      title: poi.name
-    }).addTo(this.map);
-
-    // Popup with POI info
-    marker.bindPopup(`
-      <strong>${poi.name}</strong><br>
-      <span style="text-transform: capitalize">${poi.subcategory || poi.category}</span>
-    `);
-
-    // Click handler
-    marker.on('click', () => {
-      this.emit('poi-click', poi);
-    });
-
-    this.poiMarkers.set(poi.id, marker);
-    return marker;
+    // POI markers disabled — keep the map clean
+    return null;
   },
 
   /**
@@ -3004,8 +2865,9 @@ const MapDisplay = {
 // Make available globally
 window.MapDisplay = MapDisplay;
 
+  </script>
 
-    // js/overpass.js
+  <script>
 /**
  * Overpass API module for Street Tour Guide
  * Fetches POIs from OpenStreetMap via Overpass API
@@ -3483,8 +3345,9 @@ out center;
 // Make available globally
 window.Overpass = Overpass;
 
+  </script>
 
-    // js/enrichment.js
+  <script>
 /**
  * Enrichment module for Street Tour Guide
  * Fetches additional context from Wikipedia and Wikidata
@@ -3850,8 +3713,9 @@ LIMIT 20
 // Make available globally
 window.Enrichment = Enrichment;
 
+  </script>
 
-    // js/tts-provider.js
+  <script>
 /**
  * TTS Provider Registry for Street Tour Guide
  * Manages multiple TTS engines with a common interface
@@ -3935,8 +3799,9 @@ const TTSProvider = {
 // Make available globally
 window.TTSProvider = TTSProvider;
 
+  </script>
 
-    // js/tts-webspeech.js
+  <script>
 /**
  * Web Speech API TTS Provider for Street Tour Guide
  * Wraps the browser's native speech synthesis
@@ -4276,8 +4141,9 @@ TTSProvider.register('webspeech', TTSWebSpeech);
 // Make available globally
 window.TTSWebSpeech = TTSWebSpeech;
 
+  </script>
 
-    // js/tts-kokoro.js
+  <script>
 /**
  * Kokoro TTS Provider for Street Tour Guide
  * Uses Kokoro-82M neural network for high-quality speech synthesis.
@@ -4351,9 +4217,120 @@ const TTSKokoro = {
 
     try {
       // Create Web Worker for ONNX inference
-      const workerSrc = document.getElementById('kokoro-worker-src').textContent;
-      const workerBlob = new Blob([workerSrc], { type: 'application/javascript' });
-      this._worker = new Worker(URL.createObjectURL(workerBlob), { type: 'module' });
+      const _workerCode = `/**
+ * Kokoro TTS Web Worker for Street Tour Guide
+ * Runs ONNX WASM inference off the main thread to avoid UI freezes.
+ *
+ * Messages IN:
+ *   { type: 'init', options: { onProgress: boolean } }
+ *   { type: 'generate', id: number, text: string, voice: string, speed: number }
+ *   { type: 'dispose' }
+ *
+ * Messages OUT:
+ *   { type: 'init-progress', progress: object }
+ *   { type: 'init-done' }
+ *   { type: 'init-error', error: string }
+ *   { type: 'generate-done', id: number, audio: Float32Array }
+ *   { type: 'generate-error', id: number, error: string }
+ *   { type: 'disposed' }
+ */
+
+let tts = null;
+
+self.onmessage = async function (e) {
+  const msg = e.data;
+
+  switch (msg.type) {
+    case 'init':
+      try {
+        const { KokoroTTS } = await import('https://cdn.jsdelivr.net/npm/kokoro-js@1.2.0/dist/kokoro.web.js');
+
+        tts = await KokoroTTS.from_pretrained(
+          'onnx-community/Kokoro-82M-v1.0-ONNX',
+          {
+            dtype: 'q8',
+            device: 'wasm',
+            progress_callback: msg.options?.onProgress ? (progress) => {
+              if (progress.status === 'progress') {
+                self.postMessage({
+                  type: 'init-progress',
+                  progress: {
+                    status: 'downloading',
+                    file: progress.file,
+                    progress: progress.progress,
+                    loaded: progress.loaded,
+                    total: progress.total
+                  }
+                });
+              } else if (progress.status === 'done') {
+                self.postMessage({
+                  type: 'init-progress',
+                  progress: {
+                    status: 'done',
+                    file: progress.file,
+                    progress: 100
+                  }
+                });
+              } else if (progress.status === 'ready') {
+                self.postMessage({
+                  type: 'init-progress',
+                  progress: {
+                    status: 'ready',
+                    progress: 100
+                  }
+                });
+              }
+            } : undefined
+          }
+        );
+
+        self.postMessage({ type: 'init-done' });
+      } catch (error) {
+        self.postMessage({ type: 'init-error', error: error.message });
+      }
+      break;
+
+    case 'generate':
+      if (!tts) {
+        self.postMessage({
+          type: 'generate-error',
+          id: msg.id,
+          error: 'Kokoro TTS not initialized in worker'
+        });
+        return;
+      }
+
+      try {
+        const result = await tts.generate(msg.text, {
+          voice: msg.voice,
+          speed: msg.speed
+        });
+
+        // Transfer the Float32Array to avoid copying
+        const audioData = result.audio;
+        self.postMessage(
+          { type: 'generate-done', id: msg.id, audio: audioData },
+          [audioData.buffer]
+        );
+      } catch (error) {
+        self.postMessage({
+          type: 'generate-error',
+          id: msg.id,
+          error: error.message
+        });
+      }
+      break;
+
+    case 'dispose':
+      tts = null;
+      self.postMessage({ type: 'disposed' });
+      break;
+  }
+};
+`;
+      const _workerBlob = new Blob([_workerCode], { type: 'application/javascript' });
+      const _workerUrl = URL.createObjectURL(_workerBlob);
+      this._worker = new Worker(_workerUrl, { type: 'module' });
 
       // Set up message handler
       await new Promise((resolve, reject) => {
@@ -4766,8 +4743,9 @@ TTSProvider.register('kokoro', TTSKokoro);
 // Make available globally
 window.TTSKokoro = TTSKokoro;
 
+  </script>
 
-    // js/tts.js
+  <script>
 /**
  * TTS Facade for Street Tour Guide
  * Delegates to the active TTS provider (Web Speech API or Kokoro)
@@ -5054,8 +5032,9 @@ const TTS = {
 // Make available globally
 window.TTS = TTS;
 
+  </script>
 
-    // js/priorities.js
+  <script>
 /**
  * Category Priorities module for Street Tour Guide
  * Handles POI scoring and ranking based on user preferences
@@ -5381,8 +5360,9 @@ const Priorities = {
 // Make available globally
 window.Priorities = Priorities;
 
+  </script>
 
-    // js/feedback.js
+  <script>
 /**
  * Feedback module for Street Tour Guide
  * Handles user feedback collection and preference learning
@@ -5639,8 +5619,9 @@ const Feedback = {
 // Make available globally
 window.Feedback = Feedback;
 
+  </script>
 
-    // js/claude.js
+  <script>
 /**
  * Claude API module for Street Tour Guide
  * Handles AI-generated narration using Claude API with streaming
@@ -5935,8 +5916,9 @@ Keep your response natural and spoken-word friendly - it will be read aloud via 
 // Make available globally
 window.Claude = Claude;
 
+  </script>
 
-    // js/tour.js
+  <script>
 /**
  * Tour Controller for Street Tour Guide
  * Manages the tour flow, POI queue, and narration
@@ -6766,8 +6748,9 @@ score: ${poi.score || '-'}`;
 // Make available globally
 window.Tour = Tour;
 
+  </script>
 
-    // js/simulation.js
+  <script>
 /**
  * Simulation module for Street Tour Guide
  * Simulates walking along actual streets using OSRM routing
@@ -7598,8 +7581,9 @@ steps: ${this.stepCount}`;
 // Make available globally
 window.Simulation = Simulation;
 
+  </script>
 
-    // js/main.js
+  <script>
 /**
  * Main application entry point for Street Tour Guide
  * Handles initialization and event wiring
@@ -8092,5 +8076,6 @@ if (document.readyState === 'loading') {
 window.App = App;
 
   </script>
+
 </body>
 </html>
