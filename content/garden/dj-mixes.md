@@ -12,7 +12,7 @@ a collection of DJ mixes recorded while playing around for fun at home and with 
 
 ### 2026-02-06
 
-{{< audio src="https://drive.google.com/file/d/10n25CKbnvl-Cr012dIwSzj-aKYat3-4y/view" >}}
+{{< audio src="https://drive.google.com/file/d/1taTe44xET9g0acrQoTzPZiejBBKJ_JPo/view" >}}
 
 {{< collapse "tracklist" >}}
 1. Underworld - Mmm...Skyscraper I Love You
