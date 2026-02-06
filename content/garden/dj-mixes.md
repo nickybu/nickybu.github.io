@@ -5,10 +5,40 @@ ShowReadingTime: false
 ShowBreadCrumbs: false
 ShowWordCount: false
 disableAnchoredHeadings: false
-date: 2026-01-19T00:00:00+00:00
+date: 2026-02-06T00:00:00+00:00
 ---
 
 a collection of DJ mixes recorded while playing around for fun at home and with friends.
+
+### 2026-02-06
+
+{{< audio src="https://drive.google.com/file/d/10n25CKbnvl-Cr012dIwSzj-aKYat3-4y/view?usp=drive_link" >}}
+
+{{< collapse "tracklist" >}}
+1. Underworld - Mmm...Skyscraper I Love You
+2. Vilchezz, Toobris - Rough Surface (Toobris Remix)
+3. Duncan Macdonald - Blinded by Night
+4. Toobris - Distant Ties
+5. Bailey Ibbs - Rylynn
+6. Prithvi - Sex Money Murder
+7. DJ Dextro - Beautiful Day
+8. Ketch, Hitam - Spirits
+9. Klaps (BE) - Tes Ma We
+10. Ketch - Preparations
+11. Seigg - Broken Rib
+12. Kohra, Monophonik - Neuroresonance
+13. Cirkle - Vakandra's Spell
+14. Ben Klock, Fadi Mohem, Coby Sey, Alarico - Clean Slate (Alarico Remix)
+15. Chlär - The Silent Majority
+16. Kohra, Monophonik - Uyire
+17. Underworld - Juanita: Kiteless: To Dream Of Love (Remastered)
+18. Nicolas Vogler - Warehouse Jazz
+19. Julieta Kopp - Empty Roads
+20. Max Cooper, MATRiXXMAN - Symphony In Acid (MATRiXXMAN Containment Field Mix)
+21. Seigg - Intore
+22. Peter Van Hoesen - Ebbinghaus Shuffle
+23. Spacetime Continuum - Fluresence
+{{< /collapse >}}
 
 ### 2026-01-18
 
