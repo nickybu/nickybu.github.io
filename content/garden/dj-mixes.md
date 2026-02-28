@@ -5,7 +5,7 @@ ShowReadingTime: false
 ShowBreadCrumbs: false
 ShowWordCount: false
 disableAnchoredHeadings: false
-date: 2026-02-06T00:00:00+00:00
+date: 2026-02-28T00:00:00+00:00
 ---
 
 a collection of DJ mixes recorded while playing around for fun at home and with friends.
@@ -13,6 +13,43 @@ a collection of DJ mixes recorded while playing around for fun at home and with 
 ### 2026-02-28
 
 {{< audio src="https://drive.google.com/file/d/1sqO_z0Xwb6kJ1t1qjTLisOgLIwnqxo0f/view" >}}
+
+{{< collapse "tracklist" >}}
+1. Uväll - Avert
+2. Regent - Encoder
+3. SHDW, Obscure Shape - Disturbing Behavior
+4. Human Safari - Black Shadows
+5. Linear System - Ritualism (Beste Hira Remix)
+6. Uväll - Avert
+7. Chlär - Cipe Ortni
+8. Holden Federico - Steep
+9. Toru Katsuta - Particle in Space
+10. Inox Traxx, Rødhåd - SILVENE 02 [240123]
+11. Jelena - Golubica
+12. GiGi FM - Overseas
+13. Altinbas - Biosfera
+14. Bailey Ibbs - Posted Up North
+15. BLANKA (ES) - Breaking Rules
+16. Isabel Soto - Uva Ursi (Original Mix)
+17. Jancen - Augusto Fiero
+18. Resonances (IT) - Help Me
+19. Vault Sessions - PREMIERE: Audio Units - Terrain Data [BCCOVA10]
+20. Vxlr - Upfront (Original Mix)
+21. DJ Dextro, Cardao - The Secret
+22. Vekh - Akiko (Jonas Kopp Remix)
+23. Annē - Chicago 1980
+24. Rudosa - Whip The Bass
+25. Arthur Robert - Superstition
+26. Cirkle - Vakandra's Spell
+27. KaioBarssalos - Stairfall
+28. Toobris - Tell Me The Truth
+29. Annē - Rain
+30. No Valentia, DRIPS - Drip Grip
+31. Steve RedHead - Cryosphere
+32. Audiotonics - Free Your Mind
+33. OFF / GRID - Down by Law
+34. Resonances (IT), Raftek - Drifter
+{{< /collapse >}}
 
 ### 2026-02-06
 
