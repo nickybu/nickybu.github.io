@@ -10,6 +10,10 @@ date: 2026-02-06T00:00:00+00:00
 
 a collection of DJ mixes recorded while playing around for fun at home and with friends.
 
+### 2026-02-28
+
+{{< audio src="https://drive.google.com/file/d/1sqO_z0Xwb6kJ1t1qjTLisOgLIwnqxo0f/view" >}}
+
 ### 2026-02-06
 
 {{< audio src="https://drive.google.com/file/d/1taTe44xET9g0acrQoTzPZiejBBKJ_JPo/view" >}}
