@@ -16,39 +16,34 @@ a collection of DJ mixes recorded while playing around for fun at home and with 
 
 {{< collapse "tracklist" >}}
 1. Uväll - Avert
-2. Regent - Encoder
-3. SHDW, Obscure Shape - Disturbing Behavior
-4. Human Safari - Black Shadows
-5. Linear System - Ritualism (Beste Hira Remix)
-6. Uväll - Avert
-7. Chlär - Cipe Ortni
-8. Holden Federico - Steep
-9. Toru Katsuta - Particle in Space
-10. Inox Traxx, Rødhåd - SILVENE 02 [240123]
-11. Jelena - Golubica
-12. GiGi FM - Overseas
-13. Altinbas - Biosfera
-14. Bailey Ibbs - Posted Up North
-15. BLANKA (ES) - Breaking Rules
-16. Isabel Soto - Uva Ursi (Original Mix)
-17. Jancen - Augusto Fiero
-18. Resonances (IT) - Help Me
-19. Vault Sessions - PREMIERE: Audio Units - Terrain Data [BCCOVA10]
-20. Vxlr - Upfront (Original Mix)
-21. DJ Dextro, Cardao - The Secret
-22. Vekh - Akiko (Jonas Kopp Remix)
-23. Annē - Chicago 1980
-24. Rudosa - Whip The Bass
-25. Arthur Robert - Superstition
-26. Cirkle - Vakandra's Spell
-27. KaioBarssalos - Stairfall
-28. Toobris - Tell Me The Truth
-29. Annē - Rain
-30. No Valentia, DRIPS - Drip Grip
-31. Steve RedHead - Cryosphere
-32. Audiotonics - Free Your Mind
-33. OFF / GRID - Down by Law
-34. Resonances (IT), Raftek - Drifter
+2. Chlär - Cipe Ortni
+3. Holden Federico - Steep
+4. Toru Katsuta - Particle in Space
+5. Inox Traxx, Rødhåd - SILVENE 02 [240123]
+6. Jelena - Golubica
+7. GiGi FM - Overseas
+8. Altinbas - Biosfera
+9. Bailey Ibbs - Posted Up North
+10. BLANKA (ES) - Breaking Rules
+11. Isabel Soto - Uva Ursi (Original Mix)
+12. Jancen - Augusto Fiero
+13. Resonances (IT) - Help Me
+14. Vault Sessions - PREMIERE: Audio Units - Terrain Data [BCCOVA10]
+15. Vxlr - Upfront (Original Mix)
+16. DJ Dextro, Cardao - The Secret
+17. Vekh - Akiko (Jonas Kopp Remix)
+18. Annē - Chicago 1980
+19. Rudosa - Whip The Bass
+20. Arthur Robert - Superstition
+21. Cirkle - Vakandra's Spell
+22. KaioBarssalos - Stairfall
+23. Toobris - Tell Me The Truth
+24. Annē - Rain
+25. No Valentia, DRIPS - Drip Grip
+26. Steve RedHead - Cryosphere
+27. Audiotonics - Free Your Mind
+28. OFF / GRID - Down by Law
+29. Resonances (IT), Raftek - Drifter
 {{< /collapse >}}
 
 ### 2026-02-06
