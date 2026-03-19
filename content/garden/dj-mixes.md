@@ -5,14 +5,53 @@ ShowReadingTime: false
 ShowBreadCrumbs: false
 ShowWordCount: false
 disableAnchoredHeadings: false
-date: 2026-02-28T00:00:00+00:00
+date: 2026-03-19T00:00:00+00:00
 ---
 
 a collection of DJ mixes recorded while playing around for fun at home and with friends.
 
+### 2026-03-19
+
+{{< audio src="https://pub-9ccb774e7f5845a78457d6d9154f53ef.r2.dev/REC-2026-03-19.mp3" >}}
+
+{{< collapse "tracklist" >}}
+1. West Code, DRIPS - Terra Nostra
+2. Zisko - Ancestral Technology
+3. PALMA - Touch
+4. Phil Berg - Sappho
+5. Julieta Kopp - Empty Roads
+6. Hyden - Manifest Content
+7. Sicion, Kuss - Ego Death
+8. DJ Dextro - Cosmic Traveler
+9. Ignez - A Love Dream
+10. MAURER, DRIPS - Don't Kill It
+11. Audio Units - Terrain Data
+12. Grace Dahl - The Green Room
+13. Ignez, Rødhåd - VERMILLION 03 [220208.2]
+14. PageOne - Novy
+15. Alarico - Carnal Fever
+16. Max Cooper - Unbounded
+17. Ignez - Lunfardo
+18. SHDW, Obscure Shape - Disturbing Behavior
+19. Cirkle - Shamanic
+20. VOICEX, DRIPS - Trying All Day
+21. Luar - Solid State Shopping
+22. Jancen - Dub Tool 1 (OFF / GRID Remix)
+23. Oots - AllDat Junk
+24. Chlär - Greedy Man
+25. Human Safari - Black Shadows
+26. Villa - Bornheim Bounce
+27. Bailey Ibbs, JKS - Rituals (Good Interlude)
+28. OFF / GRID - Known Surroundings
+29. Regent - Encoder
+30. RAHO - Energies From Universe
+31. Bailey Ibbs - Rylynn
+32. MDA Analog - Rainful Memories
+{{< /collapse >}}
+
 ### 2026-02-28
 
-{{< audio src="https://drive.google.com/file/d/1sqO_z0Xwb6kJ1t1qjTLisOgLIwnqxo0f/view" >}}
+{{< audio src="https://pub-9ccb774e7f5845a78457d6d9154f53ef.r2.dev/2026-02-28.mp3" >}}
 
 {{< collapse "tracklist" >}}
 1. Uväll - Avert
@@ -48,7 +87,7 @@ a collection of DJ mixes recorded while playing around for fun at home and with 
 
 ### 2026-02-06
 
-{{< audio src="https://drive.google.com/file/d/1taTe44xET9g0acrQoTzPZiejBBKJ_JPo/view" >}}
+{{< audio src="https://pub-9ccb774e7f5845a78457d6d9154f53ef.r2.dev/01%20REC-2026-02-06.mp3" >}}
 
 {{< collapse "tracklist" >}}
 1. Underworld - Mmm...Skyscraper I Love You
@@ -78,7 +117,7 @@ a collection of DJ mixes recorded while playing around for fun at home and with 
 
 ### 2026-01-18
 
-{{< audio src="https://drive.google.com/file/d/1YEBv2cQtCve60qb-kfrm5RAC0vJk5ql6/view" >}}
+{{< audio src="https://pub-9ccb774e7f5845a78457d6d9154f53ef.r2.dev/home-mix-2026-01-18.mp3" >}}
 
 {{< collapse "tracklist" >}}
 1. Yanamaste - Evil
