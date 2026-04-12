@@ -5,6 +5,9 @@ date: 2025-06-23
 draft: false
 slug: "my-favourite-bookstores-around-the-world"
 ---
+## UK
+- Judd's Books
+- Skoob Books
 
 ## Malta
 - SOLO Vinyl & Books

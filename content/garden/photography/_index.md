@@ -7,7 +7,7 @@ ShowWordCount: false
 draft: true
 ---
 
-a collection of my favourite photos.
+a collection of some of my favourite photos I've taken
 
 [35mm film photography](/garden/35mm)
 

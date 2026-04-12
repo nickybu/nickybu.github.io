@@ -8,8 +8,33 @@ disableAnchoredHeadings: false
 date: 2026-03-19T00:00:00+00:00
 ---
 
-a collection of DJ mixes recorded while playing around for fun at home and with friends.
+a collection of DJ mixes recorded while playing for fun at home, usually starting off with a track I've been listening to lately and without any setlist planned 
 
+---
+### 2026-03-28 
+
+{{< audio src="https://pub-9ccb774e7f5845a78457d6d9154f53ef.r2.dev/2026-03-28.mp3" >}}
+
+{{< collapse "tracklist" >}}
+1. Kangding Ray - La Route
+2. Rødhåd - STRUKTURES
+3. Connor Wall - Rush
+4. Zisko - Ancestral Technology
+5. Rene Wise - Gut Punch
+6. Toru Katsuta - Particle in Space
+7. Basic Implant - Brain Drain
+8. DJ Dextro, Cardao - Illusive Substance
+9. EREIB, DRIPS - Vector Memory
+10. Kangding Ray - Amber Decay
+11. Sonic Propaganda - Native
+12. Seigg, KYSH Records - Arson Paradox
+13. Human Safari - Lido
+14. Troy - Zeal
+15. Phil Berg - Sappho
+16. Julieta Kopp - Empty Roads
+17. PALMA - Touch
+18. Jay York - Confianza
+{{< /collapse >}}
 ### 2026-03-19
 
 {{< audio src="https://pub-9ccb774e7f5845a78457d6d9154f53ef.r2.dev/REC-2026-03-19.mp3" >}}
