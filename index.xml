@@ -6,7 +6,21 @@
     <description>Recent content on nickybu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.nickybu.blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.nickybu.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>audio visual projects</title>
+      <link>https://www.nickybu.blog/garden/audio-visual-projects/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nickybu.blog/garden/audio-visual-projects/</guid>
+      <description>experimental audio/visual projects</description>
+      <content:encoded><![CDATA[<p>I&rsquo;m fascinated by the interplay of music and visuals, hoping to find more time to experiment with workflows and work on some ideas.</p>
+<hr>
+<h3 id="2026-nye-houseparty-with-friends">2026 NYE (houseparty with friends)</h3>
+<p>need to find the videos</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>my dj mixes</title>
       <link>https://www.nickybu.blog/garden/dj-mixes/</link>
@@ -14,7 +28,39 @@
       
       <guid>https://www.nickybu.blog/garden/dj-mixes/</guid>
       <description>a collection of DJ mixes from home and playing with friends</description>
-      <content:encoded><![CDATA[<p>a collection of DJ mixes recorded while playing around for fun at home and with friends.</p>
+      <content:encoded><![CDATA[<p>a collection of DJ mixes recorded while playing for fun at home, usually starting off with a track I&rsquo;ve been listening to lately and without any setlist planned</p>
+<hr>
+<h3 id="2026-03-28">2026-03-28</h3>
+
+
+  <audio controls style="width: 100%;" src="https://pub-9ccb774e7f5845a78457d6d9154f53ef.r2.dev/2026-03-28.mp3"></audio>
+
+
+<p><details >
+  <summary markdown="span">tracklist</summary>
+  <ol>
+<li>Kangding Ray - La Route</li>
+<li>Rødhåd - STRUKTURES</li>
+<li>Connor Wall - Rush</li>
+<li>Zisko - Ancestral Technology</li>
+<li>Rene Wise - Gut Punch</li>
+<li>Toru Katsuta - Particle in Space</li>
+<li>Basic Implant - Brain Drain</li>
+<li>DJ Dextro, Cardao - Illusive Substance</li>
+<li>EREIB, DRIPS - Vector Memory</li>
+<li>Kangding Ray - Amber Decay</li>
+<li>Sonic Propaganda - Native</li>
+<li>Seigg, KYSH Records - Arson Paradox</li>
+<li>Human Safari - Lido</li>
+<li>Troy - Zeal</li>
+<li>Phil Berg - Sappho</li>
+<li>Julieta Kopp - Empty Roads</li>
+<li>PALMA - Touch</li>
+<li>Jay York - Confianza</li>
+</ol>
+
+</details></p>
+
 <h3 id="2026-03-19">2026-03-19</h3>
 
 
@@ -289,7 +335,12 @@
       
       <guid>https://www.nickybu.blog/garden/my-favourite-bookstores-around-the-world/</guid>
       <description>a collection of bookstores I&amp;rsquo;ve visited and loved on planet Earth</description>
-      <content:encoded><![CDATA[<h2 id="malta">Malta</h2>
+      <content:encoded><![CDATA[<h2 id="uk">UK</h2>
+<ul>
+<li>Judd&rsquo;s Books</li>
+<li>Skoob Books</li>
+</ul>
+<h2 id="malta">Malta</h2>
 <ul>
 <li>SOLO Vinyl &amp; Books</li>
 <li>Dar Bjorn (The ALS Malta Store)</li>
@@ -359,13 +410,11 @@
 
   <ul class="currently-reading-list">
     
-      <li>The Truth and Other Stories by Stanisław Lem</li>
+      <li>The Brain from Inside Out by György Buzsáki</li>
     
-      <li>Surfaces and Essences: Analogy as the Fuel and Fire of Thinking by Douglas R. Hofstadter</li>
+      <li>Neuromancer (Sprawl, #1) by William Gibson</li>
     
       <li>The Beautiful Brain: The Drawings of Santiago Ramon y Cajal by Larry W. Swanson</li>
-    
-      <li>The Complete Robot (Robot, #0.3) by Isaac Asimov</li>
     
       <li>Art of Doing Science and Engineering: Learning to Learn by Richard Hamming</li>
     
@@ -403,17 +452,12 @@
       
       <guid>https://www.nickybu.blog/garden/now/</guid>
       <description>what am I doing with my life right now?</description>
-      <content:encoded><![CDATA[<ul>
-<li>
-<p>Moved to London to start a PhD @ <a href="https://sadehlab.com/">Sadeh Lab</a> (Francis Crick Institute) and <a href="devneuro.org.uk/marinlab/">Marin Lab</a> (King&rsquo;s College London) exploring the role of cortical interneurons in regulating excitation/inhibition feedback loops during learning.</p>
-</li>
-<li>
-<p>check out what <a href="/garden/bookshelf/#books-I%27m-currently-reading...">books I&rsquo;m currently reading</a></p>
-</li>
-<li>
-<p><a href="">bedroom DJing</a> and <a href="">experimentally making electronic music with synths and samplers</a></p>
-</li>
+      <content:encoded><![CDATA[<p>I moved to London ~6 months ago to start a PhD at the Francis Crick Institute and King&rsquo;s College London with the <a href="https://sadehlab.com/">Sadeh Lab</a> and  <a href="devneuro.org.uk/marinlab/">Marin Lab</a>, exploring learning algorithms by drawing inspiration from how cortical networks of neurons in brain might structure themselves and communicate to be able to adapt and generalise to learn many different things.</p>
+<ul>
+<li>put more technically, I&rsquo;m looking at the functional role of subtypes of cortical interneurons (mainly in mice and humans), particularly somatostatin+ (SST) interneurons and dendritic computations,  in multitask/continual learning</li>
 </ul>
+<p>check out what <a href="/garden/bookshelf/#books-I%27m-currently-reading...">books I&rsquo;m currently reading</a> or listen to some DJ sets I&rsquo;ve recorded while  <a href="/dj-mixes">bedroom DJing</a>. I&rsquo;ve been spending a bunch of my time experimentally making electronic music and building workflows for live visuals, and wish to share more about that stuff soon.</p>
+<p>Since moving to London I&rsquo;ve been enjoying watching movies at independent cinemas, going to bio/neuro/AI seminars &amp; electronica and techno gigs.</p>
 ]]></content:encoded>
     </item>
     
@@ -423,8 +467,12 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.nickybu.blog/garden/tour-guide/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.nickybu.blog/street-tour-guide.html&#34; data-no-instant&gt;Launch Street Tour Guide&lt;/a&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p><a href="/street-tour-guide.html" data-no-instant>Launch Street Tour Guide</a></p>
+      <description>&lt;p&gt;this is a barely working prototype of an idea I had while walking through Manhattan NYC for the first night in my life, thinking how cool would it be if my phone could tell me more about the spaces and buildings around me.&lt;/p&gt;
+&lt;p&gt;maybe I&amp;rsquo;ll get back to it sometime soon&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nickybu.blog/street-tour-guide.html&#34; data-no-instant&gt;Launch Street Tour Guide&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>this is a barely working prototype of an idea I had while walking through Manhattan NYC for the first night in my life, thinking how cool would it be if my phone could tell me more about the spaces and buildings around me.</p>
+<p>maybe I&rsquo;ll get back to it sometime soon&hellip;</p>
+<p><a href="/street-tour-guide.html" data-no-instant>Launch Street Tour Guide</a></p>
 ]]></content:encoded>
     </item>
     
@@ -439,6 +487,7 @@
 <p><a href="https://youtu.be/iqyxjHcLqk8">Tawau Hills Park, Sabah (Borneo)</a></p>
 ]]></content:encoded>
     </item>
+    
     
     <item>
       <title>Spiking Grid Cell Models for Spatial Navigation on the SpiNNaker Neuromorphic Hardware</title>
