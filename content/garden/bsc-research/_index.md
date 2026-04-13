@@ -16,7 +16,7 @@ Using Java and LWJGL, I built a framework and visual interface to construct arbi
 <!-- ![poster](images/bsc-poster.png) -->
 
 links:
-- [full text](https://drive.google.com/file/d/13XieNtgd5JgAe8DdlFiex3CRNSRz7o74/view)
+- [full text](https://drive.google.com/drive/folders/1Q61WgUMobY8ulV0qU4bXMaAu2fQVdTE8)
 - [shorter review paper](https://drive.google.com/file/d/1BgcfEyG7u2wSHq4qglZOuyRPd91-dNyu/view?usp=sharing)
 - [sunflow renderer code](https://github.com/nickybu/sunflow)
 - [BSDF viewer code](https://github.com/nickybu/bsdf_viewer)

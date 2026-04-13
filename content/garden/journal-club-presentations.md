@@ -17,6 +17,7 @@ a collection of presentations I've prepared for journal club sessions during my 
     <iframe src="https://drive.google.com/file/d/1G-gpinMQv48I1-Cg4s_OG3zv362Yttps/view?usp=drive_link" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
     </iframe>
 </div>
+
 ## Flexible multitask computation in recurrent networks utilizes shared dynamical motifs — Driscoll, L. N. et al. (2024)
 
 - presented on 2025-11-12
