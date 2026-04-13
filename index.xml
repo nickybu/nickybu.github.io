@@ -6,7 +6,37 @@
     <description>Recent content on nickybu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.nickybu.blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.nickybu.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>journal club presentations</title>
+      <link>https://www.nickybu.blog/garden/journal-club-presentations/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nickybu.blog/garden/journal-club-presentations/</guid>
+      <description>presentations on academic papers I&amp;rsquo;ve prepared for journal clubs</description>
+      <content:encoded><![CDATA[<p>a collection of presentations I&rsquo;ve prepared for journal club sessions during my PhD</p>
+<p><strong>note</strong>: my slides are not reviewed, may and probably do contain mistakes, and should not be used in place of the original papers.</p>
+<hr>
+<h2 id="granger-causality-maps-for-langevin-systems----barnett-l-et-al-2026">Granger Causality Maps for Langevin Systems -  Barnett, L. et al. (2026)</h2>
+<ul>
+<li>presented on 2026-01-22</li>
+<li><a href="https://arxiv.org/abs/2512.16632">link to paper</a></li>
+</ul>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe src="https://drive.google.com/file/d/1G-gpinMQv48I1-Cg4s_OG3zv362Yttps/view?usp=drive_link" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+    </iframe>
+</div>
+## Flexible multitask computation in recurrent networks utilizes shared dynamical motifs — Driscoll, L. N. et al. (2024)
+<ul>
+<li>presented on 2025-11-12</li>
+<li><a href="https://arxiv.org/abs/2512.16632">link to paper</a></li>
+</ul>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe src="https://drive.google.com/file/d/12o8YSX9wORe4ii-bR4oROvr64-DZ9YnZ/view?usp=drive_link" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+    </iframe>
+</div>]]></content:encoded>
+    </item>
+    
     <item>
       <title>PhD research</title>
       <link>https://www.nickybu.blog/garden/phd-research/</link>
@@ -14,7 +44,7 @@
       
       <guid>https://www.nickybu.blog/garden/phd-research/</guid>
       <description>a collection of PhD-related resources</description>
-      <content:encoded><![CDATA[<p><a href="/garden/journal-club-presentations">journal club presentations</a></p>
+      <content:encoded><![CDATA[<p><a href="/garden/journal-club-presentations/">journal club presentations</a></p>
 ]]></content:encoded>
     </item>
     
