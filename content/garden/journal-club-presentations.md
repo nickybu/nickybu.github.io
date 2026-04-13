@@ -1,11 +1,13 @@
 ---
 title: journal club presentations
 summary: presentations on academic papers I've prepared for journal clubs
-date: 2026-04-16T00:00:00+00:00
+date: 2026-04-13T00:00:00+00:00
 ---
-a collection of presentations I've prepared for journal club sessions that I'm actively participating in during my PhD
+a collection of presentations I've prepared for journal club sessions during my PhD
 
-**note**: my slides are not reviewed and should not be used in place of the original papers
+**note**: my slides are not reviewed, may and probably do contain mistakes, and should not be used in place of the original papers.
+
+---
 ## Granger Causality Maps for Langevin Systems -  Barnett, L. et al. (2026)
 
 - presented on 2026-01-22
