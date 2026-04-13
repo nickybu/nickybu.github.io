@@ -1,8 +1,6 @@
 ---
 title: journal club presentations
 summary: presentations on academic papers I've prepared for journal clubs
-draft: false
-slug: journal-club-presentations
 date: 2026-04-16T00:00:00+00:00
 ---
 a collection of presentations I've prepared for journal club sessions that I'm actively participating in during my PhD
