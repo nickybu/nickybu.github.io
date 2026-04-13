@@ -26,7 +26,7 @@
     <iframe src="https://drive.google.com/file/d/1G-gpinMQv48I1-Cg4s_OG3zv362Yttps/view?usp=drive_link" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
     </iframe>
 </div>
-## Flexible multitask computation in recurrent networks utilizes shared dynamical motifs — Driscoll, L. N. et al. (2024)
+<h2 id="flexible-multitask-computation-in-recurrent-networks-utilizes-shared-dynamical-motifs--driscoll-l-n-et-al-2024">Flexible multitask computation in recurrent networks utilizes shared dynamical motifs — Driscoll, L. N. et al. (2024)</h2>
 <ul>
 <li>presented on 2025-11-12</li>
 <li><a href="https://arxiv.org/abs/2512.16632">link to paper</a></li>
@@ -601,7 +601,7 @@ enlisted:true</li>
 <!-- ![poster](images/bsc-poster.png) -->
 <p>links:</p>
 <ul>
-<li><a href="https://drive.google.com/file/d/13XieNtgd5JgAe8DdlFiex3CRNSRz7o74/view">full text</a></li>
+<li><a href="https://drive.google.com/drive/folders/1Q61WgUMobY8ulV0qU4bXMaAu2fQVdTE8">full text</a></li>
 <li><a href="https://drive.google.com/file/d/1BgcfEyG7u2wSHq4qglZOuyRPd91-dNyu/view?usp=sharing">shorter review paper</a></li>
 <li><a href="https://github.com/nickybu/sunflow">sunflow renderer code</a></li>
 <li><a href="https://github.com/nickybu/bsdf_viewer">BSDF viewer code</a></li>
