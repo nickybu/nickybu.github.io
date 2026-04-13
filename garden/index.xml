@@ -6,7 +6,18 @@
     <description>Recent content in garden on nickybu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.nickybu.blog/garden/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.nickybu.blog/garden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PhD research</title>
+      <link>https://www.nickybu.blog/garden/phd-research/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nickybu.blog/garden/phd-research/</guid>
+      <description>a collection of PhD-related resources</description>
+      <content:encoded><![CDATA[<p><a href="/garden/journal-club-presentations">journal club presentations</a></p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>audio visual projects</title>
       <link>https://www.nickybu.blog/garden/audio-visual-projects/</link>
