@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "78867302d47958b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "a8017af776666921",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d82d1f668f2e2833",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "garden/now.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "now"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9442fbff71496f66",
+    "type": "split",
+    "children": [
+      {
+        "id": "8922050fd5755d40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43da446b7179fde3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "72108a26405c6528",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b8a8747f27556293",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "1ab522b5c2feb4ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "9abd1bb3f3f12e28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa78e41d26b04a0a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "garden/now.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for now"
+            }
+          },
+          {
+            "id": "d6eadaec86d839fc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "garden/now.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from now"
+            }
+          },
+          {
+            "id": "957c90c1544e8717",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "47b182814331f88f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "1b3918993c00e328",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "garden/now.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of now"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "d82d1f668f2e2833",
+  "lastOpenFiles": [
+    "garden/new-york-city/_index.md",
+    "garden/new-york-city/images/new-york-2023.jpg.sb-8cb294ad-DeFkjw",
+    "garden/new-york/images/san-francisco-nike-sf87.jpg",
+    "garden/new-york-city/images/new-york-2023.jpg",
+    "garden/now.md",
+    "garden/new-york-city/images",
+    "garden/new-york-city",
+    "garden/journal-club-presentations.md",
+    "about.md",
+    "garden/bsc-research/_index.md",
+    "garden/_index.md",
+    "garden/phd-research.md",
+    "2025-06-23.md",
+    "garden/dj-mixes.md",
+    "garden/favourite-bookstores.md",
+    "garden/Untitled.md",
+    "garden/msc-research.md"
+  ]
+}
