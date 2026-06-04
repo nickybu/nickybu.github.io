@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "garden/now.md",
+                "file": "garden/new-york-city/_index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "now"
+              "title": "_index"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1ab522b5c2feb4ae",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "garden/now.md",
+                "file": "garden/new-york-city/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for now"
+              "title": "Backlinks for _index"
             }
           },
           {
@@ -114,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "garden/now.md",
+                "file": "garden/new-york-city/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from now"
+              "title": "Outgoing links from _index"
             }
           },
           {
@@ -157,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "garden/now.md",
+                "file": "garden/new-york-city/_index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of now"
+              "title": "Outline of _index"
             }
           }
         ]
@@ -186,11 +185,16 @@
   },
   "active": "d82d1f668f2e2833",
   "lastOpenFiles": [
+    "garden/new-york-city/images/new-york-2023.jpg",
+    "100 - Inbox/101 - Clippings/Mystery Movie - Ticket Booking.md",
+    "100 - Inbox/101 - Clippings/Magnolia - Ticket Booking.md",
+    "100 - Inbox/101 - Clippings/Solaris (1972) - Ticket Booking.md",
     "garden/new-york-city/_index.md",
+    "100 - Inbox/101 - Clippings",
+    "100 - Inbox",
+    "garden/now.md",
     "garden/new-york-city/images/new-york-2023.jpg.sb-8cb294ad-DeFkjw",
     "garden/new-york/images/san-francisco-nike-sf87.jpg",
-    "garden/new-york-city/images/new-york-2023.jpg",
-    "garden/now.md",
     "garden/new-york-city/images",
     "garden/new-york-city",
     "garden/journal-club-presentations.md",
